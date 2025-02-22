@@ -35,6 +35,10 @@
      z-index: 10;
 }
 
+#information-widgets{
+     max-width: 50%;
+}
+
 .information-widget-logo{
      width: 488px;
      align-items: flex-start !important;
@@ -43,4 +47,8 @@
 .information-widget-logo img{
      width: 100%!important;
      max-width: inherit!important;
+}
+
+#services .services-group:nth-child(2) *{
+     color: #fff;
 }
