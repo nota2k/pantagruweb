@@ -2,6 +2,7 @@
 
 :root{
      --pink:#A3195B;
+     --pink-hover:#8d1951;
 }
 
 #page_container{
@@ -231,6 +232,8 @@
 
 #layout-groups{
      width: fit-content;
+     position: absolute;
+     right: 0;
 }
 
 #layout-groups button{
@@ -257,12 +260,22 @@
   --tw-shadow-color:transparent!important;
   --tw-shadow:var(--tw-shadow-colored)! important;
 }
-.service[data-name="Salut !" i] .service-card *{
+
+.service[data-name="Salut !" i] .service-card a{
      background: var(--pink)!important;
      color: #fff!important;
      border-radius: 3px;
+     transition: all 0.3s;
 }
 
-/* .service[data-name="Salut !" i] .service-card p{
-     color: #fff;
-} */
+.service[data-name="Salut !" i] .service-card p{
+     color: #fff !important;
+}
+
+.service[data-name="Salut !" i] .service-card a:hover{
+     background:var(--pink-hover)!important;
+}
+
+.service[data-name="Salut !" i]{
+     max-width: fit-content!important;
+}

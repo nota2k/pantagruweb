@@ -1,7 +1,6 @@
 console.log('custom.js loaded');
      const servicesDiv = document.querySelectorAll('.services-group');
      for(let i = 1; i < servicesDiv.length; i++) {
-          console.log('servicesDiv[i] :', servicesDiv[i]);
           const newElement = document.createElement('div');
           newElement.classList.add('resume');
           newElement.innerHTML = '<h2>Titre</h2><p>Service description</p>';
