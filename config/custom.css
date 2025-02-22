@@ -6,28 +6,52 @@
 
 #page_container{
      position:relative;
+     display: flex;
+     flex-wrap: wrap;
 }
 
 #page_container::before{
-     content:''; 
+     content:'';
+     display: block;
      position:absolute;
      width: 50%;
+     min-width: 400px;
      height: 100%;
-     left: 0;
-     background:url('../../images/panta-bg-01.png') center;
+     background:url('../../images/panta-bg-01.png') center no-repeat;
      background-size: contain;
      background-repeat: no-repeat;
+     background-position: center 90px;
 }
 
 #page_container::after{
      content:'';
+     display: block;
      position:absolute;
      width: 50%;
+     min-width: 400px;
      height: 100%;
-     right:0;
-     background:url('../../images/panta-bg-02.png') var(--pink) center;
+     background:url('../../images/panta-bg-02.png') var(--pink) center no-repeat;
+     right: 0;
      background-size: contain;
      background-repeat: no-repeat;
+     background-position: center 90px;
+}
+
+@media screen and (max-width: 1024px){
+     #page_container{
+          flex-direction: column;
+     }
+
+     #page_container::before,
+     #page_container::after{
+          width: 100%;
+          height: 50%;
+     }
+
+     #page_container::after{
+          bottom: 0;
+     }
+     
 }
 
 #inner_wrapper{
@@ -59,4 +83,11 @@
 
 #services .services-group{
      max-width: 660px;
+}
+
+@media screen and (max-width: 760px){
+     #services{
+          height: 100%;
+     }
+     
 }

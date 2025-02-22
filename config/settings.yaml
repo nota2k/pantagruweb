@@ -3,5 +3,5 @@ title: Pantagruweb
 description: A description of my awesome homepage
 theme: light # or light
 color: pink
-headerStyle: boxed
+headerStyle: clean
 useEqualHeights: true
