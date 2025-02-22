@@ -3,8 +3,9 @@
 # https://gethomepage.dev/configs/info-widgets/
 
 - logo:
-  href: ../images/panta-logo.png
-  target: _blank # Optional, can be set in settings
+    icon: panta-logo.png
+    href: ../../images/panta-logo.png
+    target: _blank # Optional, can be set in settings
 - search:
     provider: duckduckgo
     target: _blank

@@ -10,4 +10,5 @@ services:
     volumes:
       - ./config:/app/config # Make sure your local config directory exists
       - ./images:/app/public/images
+      - ./icons:/app/public/icons
     restart: unless-stopped

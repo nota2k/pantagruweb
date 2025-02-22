@@ -4,24 +4,28 @@
      --pink:#A3195B;
 }
 
-#inner_wrapper{
+#page_container{
      position:relative;
 }
 
-#inner_wrapper::before{
-     content:'';
+#page_container::before{
+     content:''; 
      position:absolute;
      width: 50%;
      height: 100%;
      left: 0;
-     background:url('../images/panta-bg-01.png') no-repeat center center;
+     background:url('../../images/panta-bg-01.png') center;
+     background-size: contain;
+     background-repeat: no-repeat;
 }
 
-#inner_wrapper::after{
+#page_container::after{
      content:'';
      position:absolute;
      width: 50%;
      height: 100%;
      right:0;
-     background:url('../images/panta-bg-02.png') no-repeat center center;
+     background:url('../../images/panta-bg-02.png') var(--pink) center;
+     background-size: contain;
+     background-repeat: no-repeat;
 }
