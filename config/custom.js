@@ -1,13 +1,13 @@
 console.log('custom.js loaded');
      const servicesDiv = document.querySelectorAll('.services-group');
      console.log('Nombre de .services-group trouvés :', servicesDiv.length);
-
-     servicesDiv.forEach(function (div) {
+     for(let i = 1; i < servicesDiv.length; i++) {
+          console.log('servicesDiv[i] :', servicesDiv[i]);
           const newElement = document.createElement('div');
           newElement.classList.add('resume');
           newElement.innerHTML = '<h2>Titre</h2><p>Service description</p>';
-          div.appendChild(newElement);
-     });
+          servicesDiv[i].appendChild(newElement);
+     }
 
      let descriptions = document.querySelectorAll('.resume p');
      let title = document.querySelectorAll('.resume h2');

@@ -1,7 +1,9 @@
 language: fr
-title: Pantagruweb
-description: A description of my awesome homepage
 theme: light # or light
 color: pink
 headerStyle: clean
-useEqualHeights: true
+useEqualHeights: false
+layout:
+  S'INSTALLER:
+    style: row
+    columns: 1

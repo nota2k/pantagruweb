@@ -2,12 +2,13 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/services/
 
-- SE NOURRIR:
+- S'INSTALLER:
     - Salut !:
         href: https://hello.pantagruweb.club/i/ALLOLESPOMPIERS
         description: S'inscrire
         server: local
         container: wizarr
+- SE NOURRIR:
     - Baloche:
         href: https://www.plex.tv/fr/plexamp/
         description: Sax drogués au Rock and Roll
