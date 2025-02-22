@@ -129,7 +129,8 @@
      flex-grow: 2;
      font-size: 20px;
      min-width: 160px;
-      width: 100%;
+     width: 100%;
+     height: fit-content;
 }
 
 @media screen and (max-width: 530px){
