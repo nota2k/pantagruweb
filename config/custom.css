@@ -228,3 +228,41 @@
 .overflow-auto {
   /*! overflow: initial!important; */
 }
+
+#layout-groups{
+     width: fit-content;
+}
+
+#layout-groups button{
+     display: none;
+}
+
+#layout-groups .service-card{
+     min-height: fit-content;
+     width: 200px;
+}
+
+#layout-groups .service-card .service{
+     padding-left: 20px;
+     padding-right: 20px;
+}
+
+#layout-groups .service-title-text .service-name{
+     padding-top:.5rem!important;
+     padding-left: 20px;
+     padding-right: 20px;
+}
+
+.service[data-name="Salut !" i] .service-card{
+  --tw-shadow-color:transparent!important;
+  --tw-shadow:var(--tw-shadow-colored)! important;
+}
+.service[data-name="Salut !" i] .service-card *{
+     background: var(--pink)!important;
+     color: #fff!important;
+     border-radius: 3px;
+}
+
+/* .service[data-name="Salut !" i] .service-card p{
+     color: #fff;
+} */

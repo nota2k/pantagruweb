@@ -1,6 +1,5 @@
 console.log('custom.js loaded');
      const servicesDiv = document.querySelectorAll('.services-group');
-     console.log('Nombre de .services-group trouvés :', servicesDiv.length);
      for(let i = 1; i < servicesDiv.length; i++) {
           console.log('servicesDiv[i] :', servicesDiv[i]);
           const newElement = document.createElement('div');
