@@ -1,5 +1,7 @@
+language: fr
 title: Pantagruweb
 description: A description of my awesome homepage
 theme: light # or light
 color: pink
 headerStyle: boxed
+useEqualHeights: true

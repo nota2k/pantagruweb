@@ -6,29 +6,29 @@
     - Baloche:
         icon: plex.png
         href: http://localhost
-        description: Watch movies and TV shows.
+        description: Sax drogués au Rock and Roll
         # server: localhost
         # container: plex
     - Cinoche:
         icon: plex.png
         href: http://localhost
-        description: Watch movies and TV shows.
+        description: La manie du cinéma
         # server: localhost
         # container: plex
     - Téloche:
         icon: plex.png
         href: http://localhost
-        description: Watch movies and TV shows.
+        description: Un bourre-pif dans le PAF
         # server: localhost
         # container: plex
 
 - LE NOURRIR:
     - Cocagne:
         href: http://localhost
-        description: Homepage is the best
+        description: P2P P2P P2P P2P
     - Jean-Cloude:
         href: http://localhost
-        description: Homepage is the best
+        description: Le Cloude du Spectacle
     - Panurge:
         href: http://localhost
-        description: Homepage is the best
+        description: Il vole aux Riches pour donner au Cloude !

@@ -36,7 +36,7 @@
 }
 
 #information-widgets{
-     max-width: 50%;
+     width: fit-content;
 }
 
 .information-widget-logo{
@@ -49,6 +49,14 @@
      max-width: inherit!important;
 }
 
+#services{
+     gap:20%;
+}
+
 #services .services-group:nth-child(2) *{
      color: #fff;
+}
+
+#services .services-group{
+     max-width: 660px;
 }
