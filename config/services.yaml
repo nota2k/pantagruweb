@@ -2,20 +2,33 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/services/
 
-- My First Group:
-    - Plex:
+- SE NOURRIR:
+    - Baloche:
+        icon: plex.png
+        href: http://localhost
+        description: Watch movies and TV shows.
+        # server: localhost
+        # container: plex
+    - Cinoche:
+        icon: plex.png
+        href: http://localhost
+        description: Watch movies and TV shows.
+        # server: localhost
+        # container: plex
+    - Téloche:
         icon: plex.png
         href: http://localhost
         description: Watch movies and TV shows.
         # server: localhost
         # container: plex
 
-- My Second Group:
-    - My Second Service:
+- LE NOURRIR:
+    - Cocagne:
         href: http://localhost
         description: Homepage is the best
-
-- My Third Group:
-    - My Third Service:
-        href: http://localhost/
-        description: Homepage is 😎
+    - Jean-Cloude:
+        href: http://localhost
+        description: Homepage is the best
+    - Panurge:
+        href: http://localhost
+        description: Homepage is the best
