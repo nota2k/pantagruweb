@@ -4,19 +4,16 @@
 
 - SE NOURRIR:
     - Baloche:
-        icon: plex.png
         href: http://localhost
         description: Sax drogués au Rock and Roll
         # server: localhost
         # container: plex
     - Cinoche:
-        icon: plex.png
         href: http://localhost
         description: La manie du cinéma
         # server: localhost
         # container: plex
     - Téloche:
-        icon: plex.png
         href: http://localhost
         description: Un bourre-pif dans le PAF
         # server: localhost
