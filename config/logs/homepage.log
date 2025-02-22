@@ -245,3 +245,1823 @@
     port: 8080
   }
 ]
+[2025-02-22T13:28:41.275Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'localhost')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-02-22T13:28:43.108Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'localhost')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-02-22T13:29:03.451Z] error: <httpProxy> Error calling http://172.16.1.2:8080/api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:29:03.458Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.2:8080
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.2',
+    port: 8080
+  }
+]
+[2025-02-22T13:29:03.478Z] error: <httpProxy> Error calling http://172.16.1.1:8181/api/v2...
+[2025-02-22T13:29:03.478Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.1:8181
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.1',
+    port: 8181
+  }
+]
+[2025-02-22T13:29:03.481Z] error: <httpProxy> Error calling http://172.16.1.2:8080/api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:29:03.481Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.2:8080
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.2',
+    port: 8080
+  }
+]
+[2025-02-22T13:29:04.352Z] error: <httpProxy> Error calling http://172.16.1.2:8080/api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:29:04.354Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.2:8080
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.2',
+    port: 8080
+  }
+]
+[2025-02-22T13:29:04.359Z] error: <httpProxy> Error calling http://172.16.1.2:8080/api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:29:04.361Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.2:8080
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.2',
+    port: 8080
+  }
+]
+[2025-02-22T13:29:04.370Z] error: <httpProxy> Error calling http://172.16.1.1:8181/api/v2...
+[2025-02-22T13:29:04.370Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.1:8181
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.1',
+    port: 8181
+  }
+]
+[2025-02-22T13:29:41.640Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'localhost')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-02-22T13:29:42.222Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'localhost')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-02-22T13:29:51.587Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'localhost')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-02-22T13:29:52.268Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'localhost')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-02-22T13:30:02.747Z] error: <httpProxy> Error calling http://172.16.1.2:8080/api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:30:02.748Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.2:8080
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.2',
+    port: 8080
+  }
+]
+[2025-02-22T13:30:02.749Z] error: <httpProxy> Error calling http://172.16.1.2:8080/api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:30:02.750Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.2:8080
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.2',
+    port: 8080
+  }
+]
+[2025-02-22T13:30:02.751Z] error: <httpProxy> Error calling http://172.16.1.1:8181/api/v2...
+[2025-02-22T13:30:02.751Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.1:8181
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.1',
+    port: 8181
+  }
+]
+[2025-02-22T13:30:03.458Z] error: <httpProxy> Error calling http://172.16.1.1:8181/api/v2...
+[2025-02-22T13:30:03.459Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.1:8181
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.1',
+    port: 8181
+  }
+]
+[2025-02-22T13:30:03.460Z] error: <httpProxy> Error calling http://172.16.1.2:8080/api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:30:03.461Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.2:8080
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.2',
+    port: 8080
+  }
+]
+[2025-02-22T13:30:03.474Z] error: <httpProxy> Error calling http://172.16.1.2:8080/api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:30:03.474Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.2:8080
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.2',
+    port: 8080
+  }
+]
+[2025-02-22T13:30:11.408Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'localhost')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-02-22T13:30:11.929Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'localhost')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-02-22T13:30:13.528Z] error: <httpProxy> Error calling http://172.16.1.1:8181/api/v2...
+[2025-02-22T13:30:13.529Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.1:8181
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.1',
+    port: 8181
+  }
+]
+[2025-02-22T13:30:13.532Z] error: <httpProxy> Error calling http://172.16.1.2:8080/api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:30:13.533Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.2:8080
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.2',
+    port: 8080
+  }
+]
+[2025-02-22T13:30:13.534Z] error: <httpProxy> Error calling http://172.16.1.2:8080/api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:30:13.534Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.2:8080
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.2',
+    port: 8080
+  }
+]
+[2025-02-22T13:30:28.942Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'localhost')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-02-22T13:30:29.561Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'localhost')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-02-22T13:30:33.187Z] error: <httpProxy> Error calling http://172.16.1.2:8080/api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:30:33.188Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.2:8080
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.2',
+    port: 8080
+  }
+]
+[2025-02-22T13:30:33.190Z] error: <httpProxy> Error calling http://172.16.1.1:8181/api/v2...
+[2025-02-22T13:30:33.190Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.1:8181
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.1',
+    port: 8181
+  }
+]
+[2025-02-22T13:30:33.191Z] error: <httpProxy> Error calling http://172.16.1.2:8080/api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:30:33.192Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.2:8080
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.2',
+    port: 8080
+  }
+]
+[2025-02-22T13:30:35.475Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'localhost')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-02-22T13:30:36.006Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'localhost')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-02-22T13:30:50.803Z] error: <httpProxy> Error calling http://172.16.1.2:8080/api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:30:50.803Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.2:8080
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.2',
+    port: 8080
+  }
+]
+[2025-02-22T13:30:50.818Z] error: <httpProxy> Error calling http://172.16.1.1:8181/api/v2...
+[2025-02-22T13:30:50.819Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.1:8181
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.1',
+    port: 8181
+  }
+]
+[2025-02-22T13:30:50.820Z] error: <httpProxy> Error calling http://172.16.1.2:8080/api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:30:50.821Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.2:8080
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.2',
+    port: 8080
+  }
+]
+[2025-02-22T13:30:52.719Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'localhost')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-02-22T13:30:53.292Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'localhost')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-02-22T13:30:57.248Z] error: <httpProxy> Error calling http://172.16.1.1:8181/api/v2...
+[2025-02-22T13:30:57.249Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.1:8181
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.1',
+    port: 8181
+  }
+]
+[2025-02-22T13:30:57.264Z] error: <httpProxy> Error calling http://172.16.1.2:8080/api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:30:57.264Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.2:8080
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.2',
+    port: 8080
+  }
+]
+[2025-02-22T13:30:57.266Z] error: <httpProxy> Error calling http://172.16.1.2:8080/api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:30:57.267Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.2:8080
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.2',
+    port: 8080
+  }
+]
+[2025-02-22T13:31:14.038Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'localhost')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-02-22T13:31:14.530Z] error: <httpProxy> Error calling http://172.16.1.1:8181/api/v2...
+[2025-02-22T13:31:14.530Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.1:8181
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.1',
+    port: 8181
+  }
+]
+[2025-02-22T13:31:14.531Z] error: <httpProxy> Error calling http://172.16.1.2:8080/api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:31:14.531Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.2:8080
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.2',
+    port: 8080
+  }
+]
+[2025-02-22T13:31:14.532Z] error: <httpProxy> Error calling http://172.16.1.2:8080/api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:31:14.532Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.2:8080
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.2',
+    port: 8080
+  }
+]
+[2025-02-22T13:31:14.599Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'localhost')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-02-22T13:31:26.080Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'localhost')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-02-22T13:31:35.822Z] error: <httpProxy> Error calling http://172.16.1.2:8080/api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:31:35.823Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.2:8080
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.2',
+    port: 8080
+  }
+]
+[2025-02-22T13:31:35.825Z] error: <httpProxy> Error calling http://172.16.1.1:8181/api/v2...
+[2025-02-22T13:31:35.826Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.1:8181
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.1',
+    port: 8181
+  }
+]
+[2025-02-22T13:31:35.828Z] error: <httpProxy> Error calling http://172.16.1.2:8080/api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:31:35.828Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.2:8080
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.2',
+    port: 8080
+  }
+]
+[2025-02-22T13:31:46.931Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'localhost')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-02-22T13:31:48.614Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'localhost')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-02-22T13:32:09.862Z] error: <httpProxy> Error calling http://172.16.1.2:8080/api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:32:09.870Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.2:8080
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.2',
+    port: 8080
+  }
+]
+[2025-02-22T13:32:09.873Z] error: <httpProxy> Error calling http://172.16.1.2:8080/api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:32:09.874Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.2:8080
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.2',
+    port: 8080
+  }
+]
+[2025-02-22T13:32:09.878Z] error: <httpProxy> Error calling http://172.16.1.1:8181/api/v2...
+[2025-02-22T13:32:09.879Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.1:8181
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.1',
+    port: 8181
+  }
+]
+[2025-02-22T13:32:25.030Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'localhost')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-02-22T13:32:46.112Z] error: <httpProxy> Error calling http://172.16.1.2:8080/api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:32:46.113Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.2:8080
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.2',
+    port: 8080
+  }
+]
+[2025-02-22T13:32:46.128Z] error: <httpProxy> Error calling http://172.16.1.2:8080/api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:32:46.130Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.2:8080
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.2',
+    port: 8080
+  }
+]
+[2025-02-22T13:32:46.131Z] error: <httpProxy> Error calling http://172.16.1.1:8181/api/v2...
+[2025-02-22T13:32:46.131Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.1:8181
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.1',
+    port: 8181
+  }
+]
+[2025-02-22T13:32:54.439Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'localhost')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-02-22T13:33:13.189Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'localhost')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-02-22T13:33:14.174Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'localhost')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-02-22T13:33:35.782Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'localhost')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-02-22T13:33:36.542Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'localhost')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-02-22T13:33:41.481Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'localhost')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-02-22T13:33:57.965Z] error: <httpProxy> Error calling http://172.16.1.1:8181/api/v2...
+[2025-02-22T13:33:57.972Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.1:8181
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.1',
+    port: 8181
+  }
+]
+[2025-02-22T13:33:57.979Z] error: <httpProxy> Error calling http://172.16.1.2:8080/api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:33:57.981Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.2:8080
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.2',
+    port: 8080
+  }
+]
+[2025-02-22T13:33:57.983Z] error: <httpProxy> Error calling http://172.16.1.2:8080/api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:33:57.984Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.2:8080
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.2',
+    port: 8080
+  }
+]
+[2025-02-22T13:34:48.893Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'localhost')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-02-22T13:34:50.646Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'localhost')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-02-22T13:35:11.006Z] error: <httpProxy> Error calling http://172.16.1.2:8080/api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:35:11.011Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.2:8080
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.2',
+    port: 8080
+  }
+]
+[2025-02-22T13:35:11.021Z] error: <httpProxy> Error calling http://172.16.1.1:8181/api/v2...
+[2025-02-22T13:35:11.022Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.1:8181
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.1',
+    port: 8181
+  }
+]
+[2025-02-22T13:35:11.051Z] error: <httpProxy> Error calling http://172.16.1.2:8080/api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:35:11.052Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.2:8080
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.2',
+    port: 8080
+  }
+]
+[2025-02-22T13:35:11.707Z] error: <httpProxy> Error calling http://172.16.1.2:8080/api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:35:11.709Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.2:8080
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.2',
+    port: 8080
+  }
+]
+[2025-02-22T13:35:11.712Z] error: <httpProxy> Error calling http://172.16.1.2:8080/api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:35:11.713Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.2:8080
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.2',
+    port: 8080
+  }
+]
+[2025-02-22T13:35:11.738Z] error: <httpProxy> Error calling http://172.16.1.1:8181/api/v2...
+[2025-02-22T13:35:11.739Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.1:8181
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.1',
+    port: 8181
+  }
+]
+[2025-02-22T13:35:39.783Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'localhost')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-02-22T13:36:00.872Z] error: <httpProxy> Error calling http://172.16.1.2:8080/api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:36:00.875Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.2:8080
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.2',
+    port: 8080
+  }
+]
+[2025-02-22T13:36:00.879Z] error: <httpProxy> Error calling http://172.16.1.1:8181/api/v2...
+[2025-02-22T13:36:00.880Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.1:8181
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.1',
+    port: 8181
+  }
+]
+[2025-02-22T13:36:00.883Z] error: <httpProxy> Error calling http://172.16.1.2:8080/api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:36:00.885Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.16.1.2:8080
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.16.1.2',
+    port: 8080
+  }
+]
+[2025-02-22T13:37:13.966Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'localhost')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-02-22T13:37:15.010Z] error: undefined
+[2025-02-22T13:37:15.012Z] error: undefined
+[2025-02-22T13:37:15.013Z] error: undefined
+[2025-02-22T13:37:15.348Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'localhost')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-02-22T13:37:15.377Z] error: undefined
+[2025-02-22T13:37:15.378Z] error: undefined
+[2025-02-22T13:37:15.379Z] error: undefined
+[2025-02-22T13:38:28.322Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'localhost')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-02-22T13:38:29.479Z] error: <httpProxy> Error calling http://localhost//api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:38:29.484Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:38:29.491Z] error: <httpProxy> Error calling http://localhost//api/v2...
+[2025-02-22T13:38:29.492Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:38:29.514Z] error: <httpProxy> Error calling http://localhost//api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:38:29.515Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:38:30.412Z] error: <httpProxy> Error calling http://localhost//api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:38:30.414Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:38:30.418Z] error: <httpProxy> Error calling http://localhost//api/v2...
+[2025-02-22T13:38:30.420Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:38:30.422Z] error: <httpProxy> Error calling http://localhost//api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:38:30.423Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:38:30.531Z] error: <dockerStatusService> Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2025-02-22T13:38:42.053Z] error: <dockerStatusService> Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2025-02-22T13:38:42.725Z] error: <httpProxy> Error calling http://localhost//api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:38:42.726Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:38:42.734Z] error: <httpProxy> Error calling http://localhost//api/v2...
+[2025-02-22T13:38:42.735Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:38:42.749Z] error: <httpProxy> Error calling http://localhost//api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:38:42.749Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:38:43.548Z] error: <httpProxy> Error calling http://localhost//api/v2...
+[2025-02-22T13:38:43.550Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:38:43.554Z] error: <httpProxy> Error calling http://localhost//api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:38:43.554Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:38:43.557Z] error: <httpProxy> Error calling http://localhost//api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:38:43.559Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:38:43.578Z] error: <dockerStatusService> Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2025-02-22T13:38:56.417Z] error: <dockerStatusService> Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2025-02-22T13:38:56.429Z] error: <httpProxy> Error calling http://localhost//api/v2...
+[2025-02-22T13:38:56.429Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:38:56.434Z] error: <httpProxy> Error calling http://localhost//api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:38:56.434Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:38:56.436Z] error: <httpProxy> Error calling http://localhost//api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:38:56.437Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:38:59.001Z] error: <httpProxy> Error calling http://localhost//api/v2...
+[2025-02-22T13:38:59.001Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:39:04.042Z] error: <httpProxy> Error calling http://localhost//api/v2...
+[2025-02-22T13:39:04.042Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:39:17.766Z] error: <dockerStatusService> Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2025-02-22T13:39:17.781Z] error: <httpProxy> Error calling http://localhost//api/v2...
+[2025-02-22T13:39:17.781Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:39:17.783Z] error: <httpProxy> Error calling http://localhost//api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:39:17.783Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:39:17.793Z] error: <httpProxy> Error calling http://localhost//api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:39:17.793Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:39:18.448Z] error: <httpProxy> Error calling http://localhost//api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:39:18.449Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:39:18.455Z] error: <httpProxy> Error calling http://localhost//api/v2...
+[2025-02-22T13:39:18.455Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:39:18.457Z] error: <httpProxy> Error calling http://localhost//api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:39:18.457Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:39:18.487Z] error: <dockerStatusService> Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2025-02-22T13:39:23.359Z] error: <httpProxy> Error calling http://localhost//api/v2...
+[2025-02-22T13:39:23.360Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:39:29.928Z] error: <dockerStatusService> Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2025-02-22T13:39:29.935Z] error: <httpProxy> Error calling http://localhost//api/v2...
+[2025-02-22T13:39:29.936Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:39:29.936Z] error: <httpProxy> Error calling http://localhost//api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:39:29.937Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:39:29.941Z] error: <httpProxy> Error calling http://localhost//api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:39:29.942Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:39:30.654Z] error: <dockerStatusService> Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2025-02-22T13:39:30.667Z] error: <httpProxy> Error calling http://localhost//api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:39:30.667Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:39:30.669Z] error: <httpProxy> Error calling http://localhost//api/v2...
+[2025-02-22T13:39:30.669Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:39:30.670Z] error: <httpProxy> Error calling http://localhost//api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:39:30.676Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:39:36.791Z] error: <dockerStatusService> Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2025-02-22T13:39:36.802Z] error: <httpProxy> Error calling http://localhost//api/v2...
+[2025-02-22T13:39:36.803Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:39:36.809Z] error: <httpProxy> Error calling http://localhost//api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:39:36.809Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:39:36.810Z] error: <httpProxy> Error calling http://localhost//api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:39:36.810Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:39:37.402Z] error: <httpProxy> Error calling http://localhost//api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:39:37.403Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:39:37.406Z] error: <httpProxy> Error calling http://localhost//api/v2...
+[2025-02-22T13:39:37.406Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:39:37.408Z] error: <httpProxy> Error calling http://localhost//api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:39:37.408Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:39:37.452Z] error: <dockerStatusService> Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2025-02-22T13:39:54.201Z] error: <dockerStatusService> Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2025-02-22T13:39:54.213Z] error: <httpProxy> Error calling http://localhost//api/v2...
+[2025-02-22T13:39:54.214Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:39:54.215Z] error: <httpProxy> Error calling http://localhost//api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:39:54.216Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:39:54.219Z] error: <httpProxy> Error calling http://localhost//api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:39:54.219Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:39:54.813Z] error: <httpProxy> Error calling http://localhost//api/v2...
+[2025-02-22T13:39:54.813Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:39:54.814Z] error: <httpProxy> Error calling http://localhost//api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:39:54.815Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:39:54.823Z] error: <httpProxy> Error calling http://localhost//api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:39:54.824Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:39:54.852Z] error: <dockerStatusService> Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2025-02-22T13:40:27.336Z] error: <httpProxy> Error calling http://localhost//api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:40:27.336Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:40:27.338Z] error: <dockerStatusService> Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2025-02-22T13:40:27.339Z] error: <httpProxy> Error calling http://localhost//api/v2...
+[2025-02-22T13:40:27.340Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:40:27.341Z] error: <httpProxy> Error calling http://localhost//api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:40:27.341Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:40:28.104Z] error: <httpProxy> Error calling http://localhost//api/v2...
+[2025-02-22T13:40:28.104Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:40:28.106Z] error: <httpProxy> Error calling http://localhost//api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:40:28.107Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:40:28.109Z] error: <httpProxy> Error calling http://localhost//api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:40:28.110Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:40:28.155Z] error: <dockerStatusService> Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2025-02-22T13:40:32.944Z] error: <httpProxy> Error calling http://localhost//api/v2...
+[2025-02-22T13:40:32.945Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:40:35.913Z] error: <dockerStatusService> Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2025-02-22T13:40:35.926Z] error: <httpProxy> Error calling http://localhost//api/v2...
+[2025-02-22T13:40:35.927Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:40:35.928Z] error: <httpProxy> Error calling http://localhost//api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:40:35.928Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:40:35.929Z] error: <httpProxy> Error calling http://localhost//api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:40:35.929Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:40:38.030Z] error: <httpProxy> Error calling http://localhost//api/v2...
+[2025-02-22T13:40:38.031Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:40:44.730Z] error: <dockerStatusService> Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2025-02-22T13:40:45.604Z] error: <httpProxy> Error calling http://localhost//api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:40:45.606Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:40:45.611Z] error: <httpProxy> Error calling http://localhost//api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:40:45.614Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:40:45.617Z] error: <httpProxy> Error calling http://localhost//api/v2...
+[2025-02-22T13:40:45.619Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:40:46.388Z] error: <dockerStatusService> Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2025-02-22T13:40:46.400Z] error: <httpProxy> Error calling http://localhost//api/v2...
+[2025-02-22T13:40:46.401Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:40:46.403Z] error: <httpProxy> Error calling http://localhost//api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:40:46.415Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:40:46.418Z] error: <httpProxy> Error calling http://localhost//api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:40:46.419Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:40:51.279Z] error: <httpProxy> Error calling http://localhost//api/v2...
+[2025-02-22T13:40:51.280Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:41:27.633Z] error: <dockerStatusService> Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2025-02-22T13:41:27.651Z] error: <httpProxy> Error calling http://localhost//api/v2...
+[2025-02-22T13:41:27.652Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:41:27.653Z] error: <httpProxy> Error calling http://localhost//api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:41:27.654Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:41:27.655Z] error: <httpProxy> Error calling http://localhost//api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:41:27.656Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:41:28.397Z] error: <httpProxy> Error calling http://localhost//api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:41:28.398Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:41:28.402Z] error: <httpProxy> Error calling http://localhost//api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:41:28.403Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:41:28.411Z] error: <httpProxy> Error calling http://localhost//api/v2...
+[2025-02-22T13:41:28.412Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:41:28.527Z] error: <dockerStatusService> Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2025-02-22T13:41:33.221Z] error: <httpProxy> Error calling http://localhost//api/v2...
+[2025-02-22T13:41:33.221Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:41:46.584Z] error: <dockerStatusService> Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2025-02-22T13:41:46.592Z] error: <httpProxy> Error calling http://localhost//api/v2...
+[2025-02-22T13:41:46.593Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:41:46.599Z] error: <httpProxy> Error calling http://localhost//api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:41:46.600Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:41:46.604Z] error: <httpProxy> Error calling http://localhost//api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:41:46.604Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:41:47.271Z] error: <httpProxy> Error calling http://localhost//api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:41:47.274Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:41:47.279Z] error: <httpProxy> Error calling http://localhost//api/v2...
+[2025-02-22T13:41:47.279Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:41:47.281Z] error: <httpProxy> Error calling http://localhost//api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:41:47.281Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:41:47.324Z] error: <dockerStatusService> Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2025-02-22T13:41:52.223Z] error: <httpProxy> Error calling http://localhost//api/v2...
+[2025-02-22T13:41:52.224Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:41:57.271Z] error: <dockerStatusService> Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2025-02-22T13:41:57.281Z] error: <httpProxy> Error calling http://localhost//api/v2...
+[2025-02-22T13:41:57.283Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:41:57.288Z] error: <httpProxy> Error calling http://localhost//api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:41:57.289Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:41:57.291Z] error: <httpProxy> Error calling http://localhost//api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:41:57.291Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:44:48.667Z] error: <dockerStatusService> Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2025-02-22T13:44:48.688Z] error: <httpProxy> Error calling http://localhost//api/v2...
+[2025-02-22T13:44:48.688Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:44:48.692Z] error: <httpProxy> Error calling http://localhost//api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:44:48.692Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:44:48.693Z] error: <httpProxy> Error calling http://localhost//api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:44:48.694Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:44:49.521Z] error: <httpProxy> Error calling http://localhost//api/status-page/aaaaaaabbbbb...
+[2025-02-22T13:44:49.521Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:44:49.524Z] error: <httpProxy> Error calling http://localhost//api/v2...
+[2025-02-22T13:44:49.525Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:44:49.526Z] error: <httpProxy> Error calling http://localhost//api/status-page/heartbeat/aaaaaaabbbbb...
+[2025-02-22T13:44:49.527Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2025-02-22T13:44:49.611Z] error: <dockerStatusService> Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2025-02-22T13:44:56.437Z] error: <dockerStatusService> Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2025-02-22T13:44:57.239Z] error: <dockerStatusService> Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2025-02-22T13:45:11.941Z] error: <dockerStatusService> Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2025-02-22T13:45:12.853Z] error: <dockerStatusService> Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)

@@ -1,9 +1,4 @@
-title: My Awesome Homepage
+title: Pantagruweb
 description: A description of my awesome homepage
 theme: light # or light
 color: pink
-layout:
-  Media:
-    iconsOnly: true
-    style: row
-    columns: 4

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
+
+:root{
+     --pink:#A3195B;
+}
+
+#inner_wrapper{
+     position:relative;
+}
+
+#inner_wrapper::before{
+     content:'';
+     position:absolute;
+     width: 50%;
+     height: 100%;
+     left: 0;
+     background:url('../images/panta-bg-01.png') no-repeat center center;
+}
+
+#inner_wrapper::after{
+     content:'';
+     position:absolute;
+     width: 50%;
+     height: 100%;
+     right:0;
+     background:url('../images/panta-bg-02.png') no-repeat center center;
+}

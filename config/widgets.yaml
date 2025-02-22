@@ -2,11 +2,9 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/info-widgets/
 
-# - resources:
-#     cpu: true
-#     memory: true
-#     disk: /
-
-# - search:
-#     provider: duckduckgo
-#     target: _blank
+- logo:
+  href: ../images/panta-logo.png
+  target: _blank # Optional, can be set in settings
+- search:
+    provider: duckduckgo
+    target: _blank
