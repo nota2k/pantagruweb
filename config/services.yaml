@@ -3,9 +3,19 @@
 # https://gethomepage.dev/configs/services/
 
 - My First Group:
-    - My First Service:
-        href: http://localhost/
-        description: Homepage is awesome
+    - Plex:
+        icon: plex.png
+        href: https://plex.my.host
+        description: Watch movies and TV shows.
+        server: localhost
+        container: plex
+        widgets:
+        -   type: tautulli
+            url: http://172.16.1.1:8181
+            key: aabbccddeeffgghhiijjkkllmmnnoo
+        -   type: uptimekuma
+            url: http://172.16.1.2:8080
+            slug: aaaaaaabbbbb
 
 - My Second Group:
     - My Second Service:
