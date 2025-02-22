@@ -3,29 +3,43 @@
 # https://gethomepage.dev/configs/services/
 
 - SE NOURRIR:
+    - Salut !:
+        href: https://hello.pantagruweb.club/i/ALLOLESPOMPIERS
+        description: S'inscrire
+        server: local
+        container: wizarr
     - Baloche:
-        href: http://localhost
+        href: https://www.plex.tv/fr/plexamp/
         description: Sax drogués au Rock and Roll
-        # server: localhost
-        # container: plex
     - Cinoche:
-        href: http://localhost
+        href: https://coolections.pantagruweb.club
         description: La manie du cinéma
-        # server: localhost
-        # container: plex
+        server: local
+        container: plex
     - Téloche:
-        href: http://localhost
+        href: https://teloche.pantagruweb.club
         description: Un bourre-pif dans le PAF
-        # server: localhost
-        # container: plex
+        server: local
+        container: plex
 
 - LE NOURRIR:
     - Cocagne:
-        href: http://localhost
+        href: https://lidarr.pantagruweb.club
         description: P2P P2P P2P P2P
+        server: local
+        container: lidarr
+        widget:
+            type: lidarr
+            url: https://lidarr.pantagruweb.club
+            fields: ["wanted", "queued", "artists"]
+            key: f20545dba32348a49fdd66ddafcfc85d
     - Jean-Cloude:
-        href: http://localhost
-        description: Le Cloude du Spectacle
+        href: https://vip.jeancloude.club
+        description: Unser Bierbauch
+        # widget:
+        #     type: nextcloud
+        #     url: https://vip.jeancloude.club
+        #     key: tristan:XRGGE-jmNs3-Fq6f4-eBp3r-xwbc2
     - Panurge:
-        href: http://localhost
-        description: Il vole aux Riches pour donner au Cloude !
+        href: https://panurge.pantagruweb.club
+        description: Il vole aux riches pour donner au Cloude !

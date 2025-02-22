@@ -5,4 +5,3 @@ theme: light # or light
 color: pink
 headerStyle: clean
 useEqualHeights: true
-cardBlur: xs # sm, "", md, etc... see https://tailwindcss.com/docs/backdrop-blur

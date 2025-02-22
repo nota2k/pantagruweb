@@ -6,6 +6,3 @@
     icon: /icons/panta-logo.png
     href: /
     target: _blank # Optional, can be set in settings
-# - search:
-#     provider: duckduckgo
-#     target: _blank
