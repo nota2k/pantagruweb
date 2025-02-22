@@ -37,10 +37,11 @@
     - Jean-Cloude:
         href: https://vip.jeancloude.club
         description: Unser Bierbauch
-        # widget:
-        #     type: nextcloud
-        #     url: https://vip.jeancloude.club
-        #     key: tristan:XRGGE-jmNs3-Fq6f4-eBp3r-xwbc2
+        widget:
+            type: nextcloud
+            url: https://vip.jeancloude.club
+            user: tristan
+            password: XRGGE-jmNs3-Fq6f4-eBp3r-xwbc2
     - Panurge:
         href: https://panurge.pantagruweb.club
         description: Il vole aux riches pour donner au Cloude !
