@@ -18,7 +18,7 @@
      min-width: 400px;
      height: 100%;
      background:url('../../images/panta-bg-01.png') center no-repeat;
-     background-size: contain;
+     background-size: 60%;
      background-repeat: no-repeat;
      background-position: center 90px;
 }
@@ -32,7 +32,7 @@
      height: 100%;
      background:url('../../images/panta-bg-02.png') var(--pink) center no-repeat;
      right: 0;
-     background-size: contain;
+     background-size: 60%;
      background-repeat: no-repeat;
      background-position: center 90px;
 }
@@ -77,12 +77,20 @@
      gap:20%;
 }
 
-#services .services-group:nth-child(2) *{
+#services .services-group:nth-child(2) h2{
      color: #fff;
 }
 
 #services .services-group{
      max-width: 660px;
+}
+
+.service-card{
+     background:rgba(255,255,255,0.7)!important;
+}
+
+.service-card:hover{
+     background:rgba(255,255,255,0.9)!important;
 }
 
 @media screen and (max-width: 760px){
