@@ -59,9 +59,9 @@
      #page_container::after{
           bottom: 0;
           width: 100%;
-          height: 45%;
-          background-size: 60%;
-          background-position:60% 0;
+          height: 48%;
+          background-size: 50%;
+          background-position:90% 43%;
           position: fixed;
      }
      
@@ -242,7 +242,6 @@
      #layout-groups {
           position: relative;
           width: 100%;
-          margin-top: 20px;
      }
 
      .service[data-name="Salut !" i]{
