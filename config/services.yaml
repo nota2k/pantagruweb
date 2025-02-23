@@ -1,13 +1,13 @@
 ---
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/services/
-
 - S'INSTALLER:
-    - Salut !:
+    - Hello:
         href: https://hello.pantagruweb.club/i/ALLOLESPOMPIERS
-        description: S'inscrire
+        description: L'invitation au voyage
         server: local
         container: wizarr
+
 - SE NOURRIR:
     - Baloche:
         href: https://www.plex.tv/fr/plexamp/
@@ -25,13 +25,13 @@
 
 - LE NOURRIR:
     - Cocagne:
-        href: https://lidarr.pantagruweb.club
+        href: https://cocagne.pantagruweb.club
         description: P2P P2P P2P P2P
         server: local
-        container: lidarr
+        container: cocagne
         widget:
             type: lidarr
-            url: https://lidarr.pantagruweb.club
+            url: https://cocagne.pantagruweb.club
             fields: ["wanted", "queued", "artists"]
             key: f20545dba32348a49fdd66ddafcfc85d
     - Jean-Cloude:
@@ -42,6 +42,7 @@
             url: https://vip.jeancloude.club
             user: tristan
             password: XRGGE-jmNs3-Fq6f4-eBp3r-xwbc2
+            fields: ["freespace", "activeusers", "numfiles"]
     - Panurge:
         href: https://panurge.pantagruweb.club
         description: Il vole aux riches pour donner au Cloude !
