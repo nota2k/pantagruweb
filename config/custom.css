@@ -37,6 +37,7 @@
      background-repeat: no-repeat;
      background-position: 100% 90px;
      right: 0;
+     bottom: 0 !important;
 }
 
 @media screen and (max-width: 760px){
@@ -47,21 +48,21 @@
      }
      
      #page_container::before{
-          background-size: 70%;
-          background-position:80% 34%;
-          top: 0;
+          background-size: 50%;
+          background-position:90% 100%;
+          top: 2%;
           /*! position: sticky; */
           width: 100%;
-          height: 100%;
+          height: 50%;
      }
 
      #page_container::after{
           bottom: 0;
           width: 100%;
-          height: 70%;
+          height: 45%;
           background-size: 60%;
-          background-position:60% 60%;
-          /*! position: sticky; */
+          background-position:60% 0;
+          position: fixed;
      }
      
 }
@@ -234,6 +235,20 @@
      width: fit-content;
      position: absolute;
      right: 0;
+     margin: 0 auto;
+}
+
+@media screen and (max-width: 760px){
+     #layout-groups {
+          position: relative;
+          width: 100%;
+          margin-top: 20px;
+     }
+
+     .service[data-name="Salut !" i]{
+          max-width: 100%!important;
+     }
+     
 }
 
 #layout-groups button{
@@ -242,7 +257,6 @@
 
 #layout-groups .service-card{
      min-height: fit-content;
-     width: 200px;
 }
 
 #layout-groups .service-card .service{
@@ -277,5 +291,5 @@
 }
 
 .service[data-name="Salut !" i]{
-     max-width: fit-content!important;
+     max-width: fit-content;
 }
