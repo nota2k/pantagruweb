@@ -227,7 +227,7 @@
   content: "";
   display: block;
   position: relative;
-  width: 180px;
+  width: 150px;
   aspect-ratio: 1/ 1;
   background: url("../../images/panta-bg-03.png") center no-repeat;
   background-size: contain;
