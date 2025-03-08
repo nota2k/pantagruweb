@@ -10,8 +10,10 @@
 
 - SE NOURRIR:
     - Baloche:
-        href: https://www.plex.tv/fr/plexamp/
+        href: https://coolections.pantagruweb.club
         description: Sax drogués au Rock and Roll
+        container: plex
+        server: local   
     - Cinoche:
         href: https://coolections.pantagruweb.club
         description: La manie du cinéma
