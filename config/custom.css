@@ -20,9 +20,9 @@
   min-width: 370px;
   height: 100%;
   background: url("../../images/panta-bg-01.png");
-  background-size: 55%;
+  background-size: 59%;
   background-repeat: no-repeat;
-  background-position: 85% 70px;
+  background-position:85% 90px;
 }
 
 #page_container::after {
@@ -35,7 +35,7 @@
   background: url("../../images/panta-bg-02.png") var(--pink) center no-repeat;
   background-size: 55%;
   background-repeat: no-repeat;
-  background-position: 100% 90px;
+  background-position: 100% 120px;
   right: 0;
   bottom: 0 !important;
 }
@@ -213,7 +213,7 @@
 }
 
 .resume p {
-  max-width: 45%;
+  max-width: 36%;
   font-size: 20px;
   color: #5b0e33;
   margin-top: 20px;
@@ -232,13 +232,13 @@
   background: url("../../images/panta-bg-03.png") center no-repeat;
   background-size: contain;
   float: right;
-  margin-top: -35px;
-  right: -30px;
+  margin-top: 21px;
+  margin-right: -57px;
 }
 
 @media screen and (max-width: 760px) {
   .service-img {
-    right: 0;
+    margin-right: 0;
   }
      
 }
