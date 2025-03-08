@@ -21,28 +21,24 @@
         href: https://teloche.pantagruweb.club
         description: Un bourre-pif dans le PAF
         server: local
-        container: plex
 
 - LE NOURRIR:
     - Cocagne:
         href: https://cocagne.pantagruweb.club
         description: P2P P2P P2P P2P
         server: local
-        container: cocagne
-        widget:
-            type: lidarr
-            url: https://cocagne.pantagruweb.club
-            fields: ["wanted", "queued", "artists"]
-            key: f20545dba32348a49fdd66ddafcfc85d
+        container: slskd
     - Jean-Cloude:
-        href: https://vip.jeancloude.club
+        href: https://vip.jeancloude.club/f/48866
         description: Unser Bierbauch
-        widget:
-            type: nextcloud
-            url: https://vip.jeancloude.club
-            user: tristan
-            password: XRGGE-jmNs3-Fq6f4-eBp3r-xwbc2
-            fields: ["freespace", "activeusers", "numfiles"]
+        # widget:
+        #     type: nextcloud
+        #     url: https://vip.jeancloude.club
+        #     user: tristan
+        #     password: XRGGE-jmNs3-Fq6f4-eBp3r-xwbc2
+        #     fields: ["freespace", "activeusers", "numfiles"]
     - Panurge:
         href: https://panurge.pantagruweb.club
         description: Il vole aux riches pour donner au Cloude !
+        server: local
+        container: metube

@@ -1,3 +1,5 @@
+title: Pantagruweb
+description: Pantagruweb a faim et il compte bien s'en mettre plein la panse
 language: fr
 theme: light # or light
 color: pink
@@ -7,3 +9,4 @@ layout:
   S'INSTALLER:
     style: row
     columns: 1
+favicon: /images/favicon/favicon.svg
