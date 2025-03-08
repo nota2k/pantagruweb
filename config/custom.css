@@ -167,6 +167,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  max-width: 100%;
 }
 
 .service-title {
@@ -212,7 +213,7 @@
 }
 
 .resume p {
-  max-width: 40%;
+  max-width: 45%;
   font-size: 20px;
   color: #5b0e33;
   margin-top: 20px;
@@ -231,7 +232,7 @@
   background: url("../../images/panta-bg-03.png") center no-repeat;
   background-size: contain;
   float: right;
-  margin-top: -30px;
+  margin-top: -35px;
   right: -30px;
 }
 
