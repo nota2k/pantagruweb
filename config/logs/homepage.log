@@ -5330,3 +5330,2130 @@
 [2025-02-23T00:23:08.114Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://vip.jeancloude.club/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
 [2025-02-23T00:23:16.869Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://vip.jeancloude.club/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
 [2025-02-23T00:23:52.378Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://vip.jeancloude.club/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2025-02-23T00:24:12.134Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:24:12.163Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:24:13.992Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:24:14.022Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-02-23T00:24:14.216Z] error: <credentialedProxyHandler> HTTP Error 429 calling https://vip.jeancloude.club/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2025-02-23T00:24:15.925Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-02-23T00:24:18.381Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-02-23T00:24:18.425Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:24:20.247Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:24:20.248Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:24:20.443Z] error: <credentialedProxyHandler> HTTP Error 429 calling https://vip.jeancloude.club/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2025-02-23T00:24:40.152Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:24:40.185Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:24:42.001Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:24:42.031Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-02-23T00:24:48.317Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:24:48.334Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:24:50.174Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:24:50.189Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-02-23T00:25:26.351Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:25:26.379Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:25:28.213Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:25:28.242Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-02-23T00:25:40.134Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:25:40.136Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:25:42.001Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-02-23T00:25:42.049Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:25:43.915Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-02-23T00:25:46.464Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:25:46.466Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:25:48.326Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:25:48.328Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-02-23T00:25:48.700Z] error: <credentialedProxyHandler> HTTP Error 429 calling https://vip.jeancloude.club/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2025-02-23T00:28:24.729Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:28:24.750Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:28:26.594Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:28:26.597Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-02-23T00:28:28.511Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-02-23T00:28:28.934Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-02-23T00:28:30.447Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:28:31.051Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:28:31.324Z] error: <credentialedProxyHandler> HTTP Error 429 calling https://vip.jeancloude.club/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2025-02-23T00:28:32.326Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:28:33.019Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:28:44.480Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:28:44.511Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:28:46.343Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-02-23T00:28:46.405Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:28:49.523Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:28:49.551Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:28:49.767Z] error: <credentialedProxyHandler> HTTP Error 429 calling https://vip.jeancloude.club/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2025-02-23T00:28:51.419Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:28:51.497Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-02-23T00:28:58.800Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:28:58.833Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:29:00.676Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:29:00.692Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-02-23T00:30:29.151Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:30:29.157Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:30:31.010Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:30:31.011Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-02-23T00:30:35.228Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:30:35.229Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:30:37.098Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-02-23T00:30:37.129Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:30:38.948Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:30:38.949Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:30:39.271Z] error: <credentialedProxyHandler> HTTP Error 429 calling https://vip.jeancloude.club/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2025-02-23T00:30:40.865Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:30:43.508Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:30:43.509Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-02-23T00:30:45.362Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-07T23:21:15.842Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-07T23:21:15.845Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-07T23:21:17.833Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-07T23:21:17.839Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-07T23:21:18.643Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://vip.jeancloude.club/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2025-03-07T23:21:20.230Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-07T23:21:22.523Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-07T23:21:22.525Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-07T23:21:24.534Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-07T23:21:24.550Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-07T23:21:24.971Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://vip.jeancloude.club/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2025-03-07T23:21:26.880Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-07T23:21:26.881Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-07T23:21:30.592Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://vip.jeancloude.club/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2025-03-07T23:21:38.768Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-07T23:21:38.770Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-07T23:21:40.121Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://vip.jeancloude.club/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2025-03-07T23:21:40.711Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-07T23:21:41.016Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-07T23:21:46.903Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://vip.jeancloude.club/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2025-03-07T23:22:00.905Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-07T23:22:00.907Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-07T23:22:02.862Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-07T23:22:03.200Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-07T23:22:04.598Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://vip.jeancloude.club/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2025-03-07T23:22:16.218Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://vip.jeancloude.club/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2025-03-07T23:22:39.377Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://vip.jeancloude.club/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2025-03-07T23:22:53.246Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-07T23:22:53.247Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-07T23:22:55.201Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-07T23:22:55.215Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-07T23:23:20.496Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://vip.jeancloude.club/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2025-03-07T23:24:42.293Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-07T23:24:42.295Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-07T23:24:44.259Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-07T23:24:44.261Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-07T23:25:09.857Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://vip.jeancloude.club/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2025-03-07T23:25:40.116Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://vip.jeancloude.club/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2025-03-07T23:26:09.072Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-07T23:26:09.074Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-07T23:26:11.049Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-07T23:26:11.063Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-07T23:26:11.394Z] error: <credentialedProxyHandler> HTTP Error 429 calling https://vip.jeancloude.club/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2025-03-08T16:35:39.244Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:35:39.536Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:35:41.805Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:35:41.807Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:35:43.716Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:35:43.718Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:35:45.614Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:36:15.365Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:36:15.395Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:36:17.294Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:36:17.309Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:36:19.202Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:36:35.757Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:36:35.759Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:36:37.900Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:36:37.909Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:36:39.849Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:37:46.480Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:37:46.481Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:37:48.389Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:37:48.400Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:37:50.348Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:37:50.350Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:37:52.291Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:37:52.309Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:37:54.223Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:37:54.224Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:37:56.134Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:40:34.384Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:40:34.385Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:40:36.310Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:40:36.317Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:40:38.277Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:40:38.278Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:40:40.813Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:40:40.837Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:40:42.767Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:40:42.768Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:40:44.704Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:42:24.200Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:42:24.201Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:42:26.108Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:42:26.109Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:42:28.030Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:42:28.043Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:42:29.961Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:42:29.962Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:42:31.866Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:42:31.867Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:42:33.779Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:42:42.942Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:42:42.943Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:42:44.853Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:42:44.865Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:42:46.761Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:44:50.033Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:44:50.035Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:44:51.943Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:44:51.944Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:44:53.849Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:44:53.863Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:44:55.763Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:44:55.764Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:44:57.704Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:44:57.706Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:45:17.582Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:45:17.583Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:45:19.495Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:45:19.496Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:45:21.404Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:45:21.406Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:45:23.324Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:45:23.325Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:45:25.237Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:45:25.238Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:45:27.149Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:47:21.268Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:47:21.269Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:47:23.236Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:47:23.251Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:47:25.150Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:47:25.213Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:47:27.131Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:47:27.132Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:47:29.055Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:47:29.057Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:47:54.200Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:47:54.201Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:47:56.112Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:47:56.116Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:47:58.014Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:48:06.328Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:48:06.330Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:48:08.241Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:48:08.243Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:48:10.395Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:48:10.408Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:48:12.987Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:48:13.079Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:48:15.125Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:48:15.126Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:48:17.157Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:48:50.940Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:48:51.212Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:48:52.841Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:48:53.125Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:48:54.745Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:48:55.056Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:48:56.668Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:48:56.962Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:48:58.578Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:49:03.989Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:49:04.035Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:49:05.896Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:49:05.942Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:49:07.802Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:49:36.543Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:49:36.546Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:49:38.462Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:49:38.484Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:49:40.452Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:49:40.478Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:49:42.870Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:49:42.978Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:49:44.801Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:49:44.878Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:49:46.703Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:50:02.288Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:50:02.290Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:50:04.212Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:50:04.248Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:50:06.150Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:50:06.151Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:50:08.740Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:50:08.741Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:50:10.651Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:50:10.652Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:50:12.553Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:50:42.868Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:50:42.899Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:50:44.787Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:50:44.826Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:50:46.708Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:50:46.710Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:50:49.162Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:50:49.318Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:50:51.074Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:50:51.228Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:50:52.988Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:50:58.103Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:50:58.104Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:51:00.008Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:51:00.029Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:51:01.918Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:52:50.120Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:52:50.121Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:52:52.032Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:52:52.044Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:52:53.989Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:54:10.016Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:54:10.018Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:54:11.959Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:54:11.970Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:54:13.862Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:54:13.923Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:54:16.412Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:54:16.600Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:54:18.324Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:54:18.508Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:54:20.304Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:54:29.703Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:54:29.733Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:54:31.601Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:54:31.645Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:54:33.506Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:54:33.550Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:54:36.062Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:54:36.063Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:54:37.971Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:54:37.972Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:54:39.876Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:55:22.884Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:55:22.885Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:55:24.796Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:55:24.808Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:55:26.748Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:55:26.749Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:55:28.658Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:55:28.659Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:55:30.568Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:55:30.570Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:55:32.480Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:56:27.633Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:56:27.649Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:56:29.546Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:56:29.562Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:56:31.452Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:57:55.030Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:57:55.138Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:57:57.068Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:57:57.070Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:57:59.025Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:57:59.027Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:58:01.522Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:58:01.533Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:58:03.696Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:58:03.698Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:58:05.626Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:58:29.726Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:58:29.755Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:58:31.724Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:58:31.762Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:58:33.667Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:58:33.677Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:58:36.030Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:58:36.041Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:58:38.266Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:58:38.267Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:58:40.417Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:59:26.757Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:59:26.790Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:59:28.705Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:59:28.706Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:59:30.621Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:59:30.684Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:59:33.095Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:59:33.096Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T16:59:35.008Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:59:35.009Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T16:59:36.914Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:03:00.625Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:03:00.625Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:03:02.531Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:03:02.532Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:03:04.493Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:03:04.494Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:03:06.443Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:03:06.444Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:03:08.404Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:03:08.405Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:03:39.010Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:03:39.255Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:03:40.951Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:03:41.400Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:03:42.922Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:03:43.321Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:03:45.778Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:03:45.779Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:03:47.700Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:03:47.701Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:03:49.690Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:04:32.589Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:04:32.590Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:04:34.567Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:04:34.582Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:04:36.495Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:05:41.257Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:05:41.260Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:05:43.413Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:05:43.422Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:05:45.327Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:05:48.441Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:05:48.443Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:05:50.368Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:05:50.378Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:05:52.276Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:05:54.908Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:05:55.046Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:05:56.858Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:05:57.014Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:05:58.763Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:06:00.329Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:06:00.668Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:06:38.917Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:06:38.918Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:06:40.833Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:06:40.847Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:06:42.789Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:07:48.121Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:07:48.122Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:07:50.090Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:07:50.103Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:07:52.034Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:09:30.734Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:09:30.735Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:09:32.695Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:09:32.697Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:09:34.626Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:09:34.709Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:09:37.417Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:09:37.497Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:09:39.354Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:09:39.431Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:09:41.276Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:09:42.794Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:09:43.227Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:12:12.754Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:12:12.755Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:12:14.696Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:12:14.697Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:12:16.603Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:13:49.681Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:13:49.682Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:13:51.665Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:13:51.674Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:13:53.580Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:14:26.880Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:14:26.881Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:14:28.866Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:14:28.881Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:14:30.777Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:14:30.779Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:14:33.255Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:14:33.330Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:14:35.188Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:14:35.281Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:14:37.140Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:14:47.449Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:14:47.450Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:14:49.623Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:14:49.651Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:14:51.623Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:14:51.644Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:14:54.254Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:14:54.270Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:14:56.463Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:14:56.465Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:14:58.407Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:17:28.779Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:17:28.780Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:17:30.912Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:17:30.913Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:17:32.821Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:22:03.567Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:22:03.569Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:22:05.469Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:22:05.485Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:22:07.391Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:22:07.468Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:22:10.081Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:22:10.094Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:22:11.991Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:22:11.992Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:22:13.900Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:22:45.167Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:22:45.169Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:22:47.087Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:22:47.121Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:22:49.010Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:22:49.012Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:22:51.459Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:22:51.478Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:22:53.367Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:22:53.369Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:22:55.319Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:23:04.676Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:23:04.677Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:23:06.587Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:23:06.589Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:23:08.745Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:23:40.667Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:23:40.669Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:23:42.579Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:23:42.588Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:23:44.477Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:23:44.478Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:23:46.943Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:23:46.974Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:23:48.845Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:23:48.875Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:23:50.782Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:25:27.886Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:25:27.890Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:25:29.844Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:25:29.878Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:25:31.758Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:25:31.795Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:25:34.256Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:25:34.333Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:25:36.150Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:25:36.242Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:25:38.066Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:25:42.306Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:25:42.308Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:25:44.221Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:25:44.222Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:25:46.132Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:26:34.661Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:26:34.662Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:26:36.599Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:26:36.602Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:26:38.750Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:26:38.788Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:26:41.028Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:26:41.030Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:26:42.927Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:26:42.937Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:26:45.075Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:27:33.670Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:27:33.671Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:27:35.582Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:27:35.584Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:27:37.491Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:27:37.552Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:27:39.729Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:27:39.730Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:27:41.691Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:27:41.693Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:28:00.836Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:28:00.837Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:28:02.776Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:28:02.785Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:28:49.679Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:28:49.723Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:28:51.648Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:28:51.650Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:28:53.549Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:28:55.964Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:28:55.965Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:28:57.873Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:28:57.879Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:29:15.378Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:29:15.379Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:29:17.476Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:29:17.478Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:29:29.527Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:29:29.529Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:29:31.439Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:29:31.440Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:29:33.337Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:29:33.337Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:29:35.235Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:29:35.245Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:29:41.723Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:29:41.725Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:29:43.637Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:29:43.639Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:29:55.590Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:29:55.644Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:29:57.533Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:29:57.534Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:29:59.444Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:30:01.791Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:30:01.792Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:30:03.692Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:30:03.700Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:30:25.722Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:30:25.737Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:30:27.634Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:30:27.651Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:30:29.543Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:30:31.903Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:30:31.904Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:30:33.811Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:30:33.812Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:30:50.673Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:30:50.675Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:30:52.592Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:30:52.630Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:30:54.504Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:30:56.853Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:30:56.854Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:30:58.760Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:30:58.785Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:31:09.970Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:31:09.971Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:31:11.876Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:31:11.910Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:31:13.781Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:31:16.110Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:31:16.113Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:31:18.015Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:31:18.026Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:31:30.242Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:31:30.245Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:31:32.148Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:31:32.156Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:31:34.060Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:31:36.402Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:31:36.403Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:31:38.312Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:31:38.313Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:31:47.049Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:31:47.050Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:31:48.962Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:31:48.975Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:32:33.371Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:32:33.372Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:32:35.282Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:32:35.284Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:32:37.187Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:32:39.828Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:32:40.168Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:32:41.769Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:32:42.140Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:34:08.496Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:34:08.497Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:34:10.405Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:34:10.406Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:34:18.522Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:34:18.525Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:34:20.430Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:34:20.467Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:34:22.337Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:34:24.701Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:34:24.702Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:34:26.610Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:34:26.621Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:36:26.760Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:36:26.775Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:36:28.667Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:36:28.688Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:36:35.010Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:36:35.011Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:36:36.922Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:36:36.934Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:36:44.335Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:36:44.336Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:36:46.245Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:36:46.245Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:36:49.103Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:36:49.104Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:37:18.113Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:37:18.114Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:37:20.028Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:37:20.047Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:37:22.178Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:37:24.603Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:37:24.605Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:37:26.512Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}
+[2025-03-08T17:37:26.522Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:37:51.101Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:37:51.131Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:37:53.024Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-08T17:37:53.101Z] error: <service-helpers> Error getting services from Docker server 'local': Error: getaddrinfo ENOTFOUND homepage-docker-socket-proxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'homepage-docker-socket-proxy'
+}

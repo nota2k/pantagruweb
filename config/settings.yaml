@@ -4,9 +4,6 @@ language: fr
 theme: light # or light
 color: pink
 headerStyle: clean
-useEqualHeights: false
-layout:
-  S'INSTALLER:
-    style: row
-    columns: 1
+useEqualHeights: true
+    
 favicon: /images/favicon/favicon.svg

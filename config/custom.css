@@ -1,229 +1,263 @@
-@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap");
 
-:root{
-     --pink:#A3195B;
-     --pink-hover:#8d1951;
+:root {
+  --pink: #a3195b;
+  --pink-hover: #8d1951;
 }
 
-#page_container{
-     /*! position:fixed; */
-     /*! display: flex; */
-     flex-wrap: wrap;
-     /*! overflow: inherit!important; */
+#page_container {
+  /*! position:fixed; */
+  /*! display: flex; */
+  flex-wrap: wrap;
+  /*! overflow: inherit!important; */
 }
 
-#page_container::before{
-     content:'';
-     display: block;
-     position:absolute;
-     width: 50%;
-     min-width: 370px;
-     height: 100%;
-     background:url('../../images/panta-bg-01.png');
-     background-size: 55%;
-     background-repeat: no-repeat;
-     background-position:85% 70px;
+#page_container::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 50%;
+  min-width: 370px;
+  height: 100%;
+  background: url("../../images/panta-bg-01.png");
+  background-size: 55%;
+  background-repeat: no-repeat;
+  background-position: 85% 70px;
 }
 
-#page_container::after{
-     content:'';
-     display: block;
-     position:absolute;
-     width: 50%;
-     min-width: 370px;
-     height: 100%;
-     background:url('../../images/panta-bg-02.png') var(--pink) center no-repeat;
-     background-size: 55%;
-     background-repeat: no-repeat;
-     background-position: 100% 90px;
-     right: 0;
-     bottom: 0 !important;
+#page_container::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 50%;
+  min-width: 370px;
+  height: 100%;
+  background: url("../../images/panta-bg-02.png") var(--pink) center no-repeat;
+  background-size: 55%;
+  background-repeat: no-repeat;
+  background-position: 100% 90px;
+  right: 0;
+  bottom: 0 !important;
 }
 
-@media screen and (max-width: 760px){
-     #page_container{
-          flex-direction: column;
-          /*! min-height: 100vh; */
-          height: 100%;
-     }
-     
-     #page_container::before{
-          background-size: 50%;
-          background-position:90% 100%;
-          top: 2%;
-          /*! position: sticky; */
-          width: 100%;
-          height: 50%;
-     }
+@media screen and (max-width: 760px) {
+  #page_container {
+    flex-direction: column;
+    /*! min-height: 100vh; */
+    height: 100%;
+  }
 
-     #page_container::after{
-          bottom: 0;
-          width: 100%;
-          height: 48%;
-          background-size: 50%;
-          background-position:90% 43%;
-          position: fixed;
-     }
-     
+  #page_container::before {
+    background-size: 50%;
+    background-position: 90% 100%;
+    top: 2%;
+    /*! position: sticky; */
+    width: 100%;
+    height: 50%;
+  }
+
+  #page_container::after {
+    bottom: 0;
+    width: 100%;
+    height: 48%;
+    background-size: 50%;
+    background-position: 90% 43%;
+    position: fixed;
+  }
 }
 
-#inner_wrapper{
-     position: fixed;
-     z-index: 10;
-     overflow-x: hidden;
-     margin-bottom: 2em;
-     top: 0;
+#inner_wrapper {
+  position: fixed;
+  z-index: 10;
+  overflow-x: hidden;
+  margin-bottom: 2em;
+  top: 0;
 }
 
-#inner_wrapper .h-full{
-     height: initial!important;
+#inner_wrapper .h-full {
+  height: initial !important;
 }
 .h-full {
   /*! height: initial!important; */
 }
 
-@media screen and (max-width:370px){
-     .h-full{
-          height: 100%;
-     }
+@media screen and (max-width: 370px) {
+  .h-full {
+    height: 100%;
+  }
 }
 
-#information-widgets{
-     width: fit-content;
+#information-widgets {
+  width: fit-content;
 }
 
-.information-widget-logo{
-     width: 488px;
-     align-items: flex-start !important;
+.information-widget-logo {
+  width: 488px;
+  align-items: flex-start !important;
 }
 
-.information-widget-logo img{
-     width: 100%!important;
-     max-width: inherit!important;
+.information-widget-logo img {
+  width: 100% !important;
+  max-width: inherit !important;
 }
 
-#services{
-     gap:10%;
+#services {
+  gap: 10%;
 }
 
-#services .services-group:nth-child(2) h2{
-     color: #fff;
+#services .services-group:nth-child(2) h2 {
+  color: #fff;
 }
 
-#services .services-group{
-     /*! max-width: 660px; */
+#services .services-group {
+  /*! max-width: 660px; */
 }
 
-.service-group-name{
-     font-weight: 700;
-     font-size: 24px;
-     margin-bottom: 15px;
+.service-group-name {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 15px;
 }
 
-.services-list{
-     flex-direction: row!important;
-     flex-wrap: wrap;
-     gap: 20px;
+.services-list {
+  flex-direction: row !important;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
-.service{
-     max-width: calc(100% / 3 - 20px);
-     flex-grow: 2;
-     font-size: 20px;
-     min-width: 160px;
-     width: 100%;
-     height: fit-content;
+.service-card {
+  max-height: 130px;
 }
 
-@media screen and (max-width: 530px){
-     .service{
-          max-width: 100%;
-     } 
+.service {
+  max-width: calc(100% / 3 - 50px);
+  flex-grow: 2;
+  font-size: 20px;
+  min-width: 160px;
+  width: 100%;
+  height: fit-content;
 }
 
-@media screen and (max-width: 380px){
-     .service{
-          max-width: 100%;
-     }
-     
+@media screen and (max-width: 530px) {
+  .service {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .service {
+    max-width: 100%;
+  }
 }
 
 .service p,
 .service a,
-.service-name{
-     font-size: 19px!important;
-     line-height: 1.5;
+.service-name {
+  font-size: 19px !important;
+  line-height: 1.1;
 }
 
-.service-card{
-     background:rgba(255,255,255,0.7)!important;
-     min-height: 150px;
-     backdrop-filter: blur(1px);
-     height: 100%;
+.service-card {
+  background: rgba(255, 255, 255, 0.7) !important;
+  min-height: 120px;
+  backdrop-filter: blur(1px);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.service-title{
-     height: 100%;
+.service-title {
+  height: 100%;
 }
 
-.service-title-text{
-     align-items: baseline!important;
+.service-title-text {
+  align-items: baseline !important;
 }
 
-.service-name{
-     padding-top: 30px!important;
-     text-align: center!important;
-     line-height: 1.6em!important;
-     font-weight: 600;
+.service-name {
+  padding-top: 30px !important;
+  text-align: center !important;
+  line-height: 1.6em !important;
+  font-weight: 600;
 }
 
-.service-description{
-     color: #5b0e33!important;
+.service-description {
+  color: #5b0e33 !important;
 }
 
-.service-card:hover{
-     background:rgba(255,255,255,0.9)!important;
+.service-card:hover {
+  background: rgba(255, 255, 255, 0.9) !important;
 }
 
-@media screen and (max-width: 760px){
-     #services{
-          height: unset;
-          overflow: auto;
-     }
+@media screen and (max-width: 760px) {
+  #services {
+    height: unset;
+    overflow: auto;
+  }
+}
+
+.resume {
+  margin-top: 40px;
+  position: relative;
+}
+
+.resume h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: var(--pink);
+}
+
+.resume p {
+  max-width: 40%;
+  font-size: 20px;
+  color: #5b0e33;
+  margin-top: 20px;
+}
+
+.resume img {
+  mix-blend-mode: multiply;
+}
+
+.service-img {
+  content: "";
+  display: block;
+  position: relative;
+  width: 180px;
+  aspect-ratio: 1/ 1;
+  background: url("../../images/panta-bg-03.png") center no-repeat;
+  background-size: contain;
+  float: right;
+  margin-top: -30px;
+  right: -30px;
+}
+
+@media screen and (max-width: 760px) {
+  .service-img {
+    right: 0;
+  }
      
 }
-
-.resume{
-     margin-top: 40px;
+.service-name {
+  padding-top: 14px !important;
 }
 
-.resume h2{
-     font-size: 36px;
-     font-weight: 700;
-     margin-bottom: 10px;
-     color:var(--pink);
+@media screen and (max-width: 780px) {
+  .resume p {
+    max-width: 100%;
+  }
 }
 
-.resume p{
-     max-width: 40%;
-     font-size: 20px;
-     color: #5b0e33;
-     margin-top: 20px;
-}
-
-@media screen and (max-width: 780px){
-     .resume p{
-          max-width: 100%;
-     }    
-}
-
-.services-group:nth-child(2) p{
-     color: #fff;
+.services-group:nth-child(2) p {
+  color: #fff;
 }
 
 @media (min-width: 1800px) {
   .container {
-    max-width: inherit!important;
+    max-width: inherit !important;
   }
 }
 
@@ -231,64 +265,63 @@
   /*! overflow: initial!important; */
 }
 
-#layout-groups{
-     width: fit-content;
-     position: absolute;
-     right: 0;
-     margin: 0 auto;
+#layout-groups {
+  width: fit-content;
+  position: absolute;
+  right: 0;
+  margin: 0 auto;
 }
 
-@media screen and (max-width: 760px){
-     #layout-groups {
-          position: relative;
-          width: 100%;
-     }
+@media screen and (max-width: 760px) {
+  #layout-groups {
+    position: relative;
+    width: 100%;
+  }
 
-     .service[data-name="Salut !" i]{
-          max-width: 100%!important;
-     }
-     
+  .service[data-name="Salut !" i] {
+    max-width: 100% !important;
+  }
 }
 
-#layout-groups button{
-     display: none;
+#layout-groups button {
+  display: none;
 }
 
-#layout-groups .service-card{
-     min-height: fit-content;
+#layout-groups .service-card {
+  min-height: fit-content;
 }
 
-#layout-groups .service-card .service{
-     padding-left: 20px;
-     padding-right: 20px;
+#layout-groups .service-card .service {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-#layout-groups .service-title-text .service-name{
-     padding-top:.5rem!important;
-     padding-left: 20px;
-     padding-right: 20px;
+#layout-groups .service-title-text .service-name {
+  padding-top: 0.5rem !important;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.service[data-name="Salut !" i] .service-card{
-  --tw-shadow-color:transparent!important;
-  --tw-shadow:var(--tw-shadow-colored)! important;
+.service[data-name="Salut !" i] .service-card {
+  --tw-shadow-color: transparent !important;
+  --tw-shadow: var(--tw-shadow-colored) !important;
 }
 
-.service[data-name="Salut !" i] .service-card a{
-     background: var(--pink)!important;
-     color: #fff!important;
-     border-radius: 3px;
-     transition: all 0.3s;
+.service[data-name="Salut !" i] .service-card a {
+  background: var(--pink) !important;
+  color: #fff !important;
+  border-radius: 3px;
+  transition: all 0.3s;
 }
 
-.service[data-name="Salut !" i] .service-card p{
-     color: #fff !important;
+.service[data-name="Salut !" i] .service-card p {
+  color: #fff !important;
 }
 
-.service[data-name="Salut !" i] .service-card a:hover{
-     background:var(--pink-hover)!important;
+.service[data-name="Salut !" i] .service-card a:hover {
+  background: var(--pink-hover) !important;
 }
 
-.service[data-name="Salut !" i]{
-     max-width: fit-content;
+.service[data-name="Salut !" i] {
+  max-width: fit-content;
 }

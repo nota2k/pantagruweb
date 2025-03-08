@@ -1,12 +1,6 @@
 ---
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/services/
-- S'INSTALLER:
-    - Hello:
-        href: https://hello.pantagruweb.club/i/ALLOLESPOMPIERS
-        description: L'invitation au voyage
-        server: local
-        container: wizarr
 
 - SE NOURRIR:
     - Baloche:
