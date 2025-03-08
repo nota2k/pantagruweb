@@ -5,6 +5,10 @@
   --pink-hover: #8d1951;
 }
 
+.container {
+  max-width: 2000px!important;
+}
+
 #page_container {
   /*! position:fixed; */
   /*! display: flex; */
